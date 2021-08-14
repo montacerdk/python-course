@@ -86,3 +86,16 @@ def raise_to_power(base_num, power_num):
 
 
 print('Raise to power : ', raise_to_power(3, 4))
+
+# Grids
+
+grid = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [0]
+]
+
+luck_num = grid[1][2]
+
+print('My luck Num is : ', luck_num)
