@@ -99,3 +99,14 @@ grid = [
 luck_num = grid[1][2]
 
 print('My luck Num is : ', luck_num)
+
+# Try Except statement
+
+try:
+    div = 2 / 0
+    number = int(input('Type a number : '))
+    print(number)
+except ZeroDivisionError as error:
+    print('You just devided by zero ...', error)
+except ValueError:
+    print('Invalid input ...')
