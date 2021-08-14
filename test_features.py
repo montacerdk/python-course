@@ -67,3 +67,22 @@ while iterator <= 6:
     print(iterator)
     iterator += 1
 print('Done with While loop.')
+
+# For loop
+
+forloop_list = ['yezzi m laab']
+
+for friend in friends:
+    forloop_list.append(friend)
+
+print('forloop_list', forloop_list)
+
+
+def raise_to_power(base_num, power_num):
+    result = 1
+    for result in range(power_num):
+        result = result * base_num
+    return result
+
+
+print('Raise to power : ', raise_to_power(3, 4))
