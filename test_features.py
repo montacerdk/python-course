@@ -59,3 +59,11 @@ elif is_female and not(is_tall):
     print('Short Female')
 else:
     print('Neither Female nor tall')
+
+# While loop
+
+iterator = 0
+while iterator <= 6:
+    print(iterator)
+    iterator += 1
+print('Done with While loop.')
