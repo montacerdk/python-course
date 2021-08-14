@@ -25,3 +25,13 @@ def get_cube(number):
 
 say_hi('Walid')
 print(get_cube(6))
+
+is_female = True
+is_tall = True
+
+if is_female and is_tall:
+    print('Tall Female')
+elif is_female and not(is_tall):
+    print('Short Female')
+else:
+    print('Neither Female nor tall')
